@@ -36,7 +36,7 @@
       },
       {
         "tab": "API Reference",
-        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+        "openapi": "hhttps://raw.githubusercontent.com/ImpiloInc/api-v3-docs-assets/refs/heads/staging/openapi.json"
     }
     ],
     "global": {
