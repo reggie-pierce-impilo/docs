@@ -36,7 +36,7 @@
       },
        {
         "tab": "API Reference",
-        "openapi": "https://raw.githubusercontent.com/reggie-pierce-impilo/docs/refs/heads/main/api-reference/openapi.yaml"
+        "openapi": "/api-reference/openapi.yaml"
         }
     ],
     "global": {

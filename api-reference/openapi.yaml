@@ -1884,6 +1884,7 @@ paths:
           type: integer
       responses:
         default:
+          description: test
           content:
             application/pdf:
               schema:
@@ -2537,7 +2538,7 @@ paths:
       summary: List Procurements
       description: |
         Fetches a procurement by ID provided in the path.
-      operationId: listProcurements
+      operationId: listProcurements2
       parameters:
       - name: id
         in: path
@@ -3769,7 +3770,7 @@ paths:
       - Support Tickets
       summary: Create Support Ticket
       description: Posts a new note to the Support Ticket ID provided in the path.
-      operationId: createSupportTicket
+      operationId: createSupportTicket3
       parameters:
       - name: supportTicketId
         in: path
@@ -4604,6 +4605,7 @@ paths:
           $ref: "#/components/schemas/Instant"
       responses:
         default:
+          description: test
           content:
             application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
               schema:
@@ -5044,6 +5046,7 @@ paths:
           $ref: "#/components/schemas/Instant"
       responses:
         default:
+          description: test
           content:
             application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
               schema:
@@ -5496,6 +5499,7 @@ paths:
           $ref: "#/components/schemas/Instant"
       responses:
         default:
+          description: test
           content:
             application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
               schema:
@@ -8029,6 +8033,7 @@ paths:
           $ref: "#/components/schemas/Instant"
       responses:
         default:
+          description: test
           content:
             application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
               schema:
@@ -8458,6 +8463,7 @@ paths:
           $ref: "#/components/schemas/Instant"
       responses:
         default:
+          description: test
           content:
             application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
               schema:
