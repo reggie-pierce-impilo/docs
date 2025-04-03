@@ -36,7 +36,7 @@
       },
        {
         "tab": "API Reference",
-        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+        "openapi": "https://raw.githubusercontent.com/reggie-pierce-impilo/docs/refs/heads/main/api-reference/openapi.yaml"
         }
     ],
     "global": {
