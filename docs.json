@@ -34,6 +34,254 @@
           }
         ]
       },
+      {
+    "group": "Alert Configuration",
+    "pages": [
+      "test/alert-configuration/set-global-alert-config",
+      "test/alert-configuration/get-global-alert-config",
+      "test/alert-configuration/set-patient-alert-config",
+      "test/alert-configuration/get-patient-alert-config",
+      "test/alert-configuration/set-site-alert-config",
+      "test/alert-configuration/get-site-alert-config"
+    ]
+  },
+  {
+    "group": "Clinical Notes",
+    "pages": [
+      "test/clinical-notes/list-clinical-notes",
+      "test/clinical-notes/fetch-clinical-note"
+    ]
+  },
+  {
+    "group": "Devices",
+    "pages": [
+      "test/devices/list-devices",
+      "test/devices/associate-device",
+      "test/devices/disable-readings",
+      "test/devices/disassociate-device",
+      "test/devices/enable-readings",
+      "test/devices/validate-device",
+      "test/devices/fetch-device"
+    ]
+  },
+  {
+    "group": "Inventory",
+    "pages": [
+      "test/inventory/list-inventory-summary",
+      "test/inventory/list-impilo-inventory",
+      "test/inventory/list-site-inventory"
+    ]
+  },
+  {
+    "group": "Items",
+    "pages": [
+      "test/items/list-items",
+      "test/items/create-item",
+      "test/items/fetch-item"
+    ]
+  },
+  {
+    "group": "Kits",
+    "pages": [
+      "test/kits/list-kits",
+      "test/kits/fetch-kit"
+    ]
+  },
+  {
+    "group": "Manufacturers",
+    "pages": [
+      "test/manufacturers/list-manufacturers",
+      "test/manufacturers/fetch-manufacturer"
+    ]
+  },
+  {
+    "group": "Orders",
+    "pages": [
+      "test/orders/list-orders",
+      "test/orders/create-order",
+      "test/orders/create-order-summary",
+      "test/orders/fetch-order",
+      "test/orders/void-order"
+    ]
+  },
+  {
+    "group": "Patients",
+    "pages": [
+      "test/patients/list-patients",
+      "test/patients/create-patient",
+      "test/patients/disenroll-patient",
+      "test/patients/fetch-patient-by-email",
+      "test/patients/fetch-patient-by-identifier",
+      "test/patients/fetch-patient",
+      "test/patients/update-patient",
+      "test/patients/patch-patient"
+    ]
+  },
+  {
+    "group": "Procurements",
+    "pages": [
+      "test/procurements/list-procurements",
+      "test/procurements/create-procurement-request",
+      "test/procurements/create-shipping-notice",
+      "test/procurements/list-procurements-1",
+      "test/procurements/fetch-procurement-document",
+      "test/procurements/upload-procurement-document",
+      "test/procurements/delete-procurement-document"
+    ]
+  },
+  {
+    "group": "Returns",
+    "pages": [
+      "test/returns/list-returns",
+      "test/returns/create-return",
+      "test/returns/fetch-return",
+      "test/returns/void-return"
+    ]
+  },
+  {
+    "group": "Sites",
+    "pages": [
+      "test/sites/list-sites",
+      "test/sites/create-site",
+      "test/sites/fetch-site",
+      "test/sites/update-site",
+      "test/sites/patch-site"
+    ]
+  },
+  {
+    "group": "Support Tickets",
+    "pages": [
+      "test/support-tickets/list-support-tickets",
+      "test/support-tickets/create-support-ticket",
+      "test/support-tickets/fetch-support-ticket-by-id",
+      "test/support-tickets/update-assignee",
+      "test/support-tickets/close-support-ticket",
+      "test/support-tickets/update-status",
+      "test/support-tickets/create-support-ticket-1",
+      "test/support-tickets/reopen-support-ticket"
+    ]
+  },
+  {
+    "group": "Transfers",
+    "pages": [
+      "test/transfers/list-transfer-requests",
+      "test/transfers/create-item-transfer-request",
+      "test/transfers/fetch-transfer-request"
+    ]
+  },
+  {
+    "group": "Webhooks",
+    "pages": [
+      "test/webhooks/list-webhooks",
+      "test/webhooks/create-webhook",
+      "test/webhooks/fetch-webhook-secret",
+      "test/webhooks/create-webhook-secret",
+      "test/webhooks/delete-webhook-secret",
+      "test/webhooks/update-webhook-secret",
+      "test/webhooks/list-webhook-logs",
+      "test/webhooks/fetch-webhook",
+      "test/webhooks/delete-webhook",
+      "test/webhooks/patch-webhook"
+    ]
+  },
+  {
+    "group": "Readings - Blood Glucose",
+    "pages": [
+      "test/readings--blood-glucose/list-blood-glucose-readings",
+      "test/readings--blood-glucose/record-blood-glucose-reading",
+      "test/readings--blood-glucose/export-blood-glucose-readings",
+      "test/readings--blood-glucose/fetch-blood-glucose-reading"
+    ]
+  },
+  {
+    "group": "Readings - Blood Oxygen",
+    "pages": [
+      "test/readings--blood-oxygen/list-blood-oxygen-readings",
+      "test/readings--blood-oxygen/record-blood-oxygen-reading",
+      "test/readings--blood-oxygen/export-blood-oxygen-readings",
+      "test/readings--blood-oxygen/fetch-blood-oxygen-reading"
+    ]
+  },
+  {
+    "group": "Readings - Blood Pressure",
+    "pages": [
+      "test/readings--blood-pressure/list-blood-pressure-readings",
+      "test/readings--blood-pressure/record-blood-pressure-reading",
+      "test/readings--blood-pressure/export-blood-pressure-readings",
+      "test/readings--blood-pressure/fetch-blood-pressure-reading"
+    ]
+  },
+  {
+    "group": "Readings - Heart Rate",
+    "pages": [
+      "test/readings--heart-rate/list-heart-rate-readings",
+      "test/readings--heart-rate/record-heart-rate-reading",
+      "test/readings--heart-rate/fetch-heart-rate-reading"
+    ]
+  },
+  {
+    "group": "Readings - Heart Rate Variability",
+    "pages": [
+      "test/readings--heart-rate-variability/list-heart-rate-variability-readings",
+      "test/readings--heart-rate-variability/record-heart-rate-variability-reading",
+      "test/readings--heart-rate-variability/fetch-heart-rate-variability-reading"
+    ]
+  },
+  {
+    "group": "Readings - Peak Flow",
+    "pages": [
+      "test/readings--peak-flow/list-peak-flow-readings",
+      "test/readings--peak-flow/record-peak-flow-reading",
+      "test/readings--peak-flow/fetch-peak-flow-reading"
+    ]
+  },
+  {
+    "group": "Readings - Sleep Mat Activity",
+    "pages": [
+      "test/readings--sleep-mat-activity/list-sleep-mat-activity-readings",
+      "test/readings--sleep-mat-activity/record-sleep-mat-activity-reading",
+      "test/readings--sleep-mat-activity/fetch-sleep-mat-activity-reading"
+    ]
+  },
+  {
+    "group": "Readings - Sleep Mat Duration",
+    "pages": [
+      "test/readings--sleep-mat-duration/list-sleep-mat-duration-readings",
+      "test/readings--sleep-mat-duration/record-sleep-mat-duration-reading",
+      "test/readings--sleep-mat-duration/fetch-sleep-mat-duration-reading"
+    ]
+  },
+  {
+    "group": "Readings - Temperature",
+    "pages": [
+      "test/readings--temperature/list-temperature-readings",
+      "test/readings--temperature/record-temperature-reading",
+      "test/readings--temperature/export-temperature-readings",
+      "test/readings--temperature/fetch-temperature-reading"
+    ]
+  },
+  {
+    "group": "Readings - Weight",
+    "pages": [
+      "test/readings--weight/list-weight-readings",
+      "test/readings--weight/record-weight-reading",
+      "test/readings--weight/export-weight-readings",
+      "test/readings--weight/fetch-weight-reading"
+    ]
+  },
+  {
+    "group": "Tests",
+    "pages": [
+      "test/tests/trigger-blood-glucose-webhook",
+      "test/tests/trigger-blood-oxygen-webhook",
+      "test/tests/trigger-blood-pressure-webhook",
+      "test/tests/trigger-device-association-created",
+      "test/tests/trigger-device-association-removed",
+      "test/tests/order-status-full-webhook",
+      "test/tests/trigger-order-status-webhook",
+      "test/tests/trigger-weight-webhook"
+    ]
+  },
        {
         "tab": "API Reference",
         "openapi": "/api-reference/openapi.yaml"
