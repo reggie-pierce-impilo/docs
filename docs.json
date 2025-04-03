@@ -34,10 +34,10 @@
           }
         ]
       },
-      {
+       {
         "tab": "API Reference",
-        "openapi": "/api-reference/openapi.yaml"
-    }
+        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+        }
     ],
     "global": {
       "anchors": [
