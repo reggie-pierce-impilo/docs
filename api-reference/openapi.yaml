@@ -9545,6 +9545,9 @@ components:
       - in
       - cm
       type: string
+      description: |-
+        * `in` - Inches.
+        * `cm` - Centimeters.
       x-enumDescriptions:
       - in: Inches.
       - cm: Centimeters.
