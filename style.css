@@ -6,3 +6,22 @@
 footer {
   margin-top: 2rem;
 }
+
+:root {
+    --primary: 173 196 255;
+    --primary-light: 234 88 12;
+    --primary-dark: 154 52 18;
+    --background-light: 255 255 255;
+    --background-dark: 14 11 11;
+    --gray-50: 247 244 243;
+    --gray-100: 242 239 238;
+    --gray-200: 227 224 223;
+    --gray-300: 210 207 206;
+    --gray-400: 163 160 159;
+    --gray-500: 116 113 112;
+    --gray-600: 84 81 80;
+    --gray-700: 67 64 63;
+    --gray-800: 42 38 37;
+    --gray-900: 27 24 23;
+    --gray-950: 14 11 10;
+  }
